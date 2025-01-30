@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import model_from_json
 import streamlit as st
 
 # Load the IMDB dataset word index
